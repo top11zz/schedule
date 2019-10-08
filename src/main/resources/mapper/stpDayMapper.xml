@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.schedule.dao.stpDayDao">
+  <resultMap id="BaseResultMap" type="com.example.schedule.entity.stpDay">
+    <id column="stp_id" jdbcType="INTEGER" property="stpId" />
+    <result column="stp_station_id" jdbcType="INTEGER" property="stpStationId" />
+    <result column="stp_line_id" jdbcType="INTEGER" property="stpLineId" />
+    <result column="stp_elec_value" jdbcType="REAL" property="stpElecValue" />
+    <result column="stp_elec_time" jdbcType="TIMESTAMP" property="stpElecTime" />
+    <result column="stp_sync_dc" jdbcType="INTEGER" property="stpSyncDc" />
+    <result column="stp_sync_time" jdbcType="TIMESTAMP" property="stpSyncTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    stp_id, stp_station_id, stp_line_id, stp_elec_value, stp_elec_time, stp_sync_dc, 
+    stp_sync_time
+  </sql>
+  <insert id="insStpDay">
+    insert into stp_day values (default,#{stpStationId},#{stpLineId},#{stpElecValue},#{stpElecTime},#{stpSyncDc},#{stpSyncTime})
+
+  </insert>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from stp_day
+    where stp_id = #{stpId,jdbcType=INTEGER}
+  </select>
+</mapper>

@@ -1,0 +1,79 @@
+2019-09-30 09:39:05.625  INFO 7456 --- [main] c.example.schedule.ScheduleApplication   : Starting ScheduleApplication on DESKTOP-P41K0TR with PID 7456 (E:\Code\schedule\target\classes started by H-PC in E:\Code\schedule)
+2019-09-30 09:39:05.627  INFO 7456 --- [main] c.example.schedule.ScheduleApplication   : No active profile set, falling back to default profiles: default
+2019-09-30 09:39:06.401  WARN 7456 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sche': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.schedule.dao.stoStationViewDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-09-30 09:39:06.406  INFO 7456 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-30 09:39:06.497 ERROR 7456 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.schedule.dao.stoStationViewDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.schedule.dao.stoStationViewDao' in your configuration.
+
+2019-09-30 09:39:22.823  INFO 9284 --- [main] c.example.schedule.ScheduleApplication   : Starting ScheduleApplication on DESKTOP-P41K0TR with PID 9284 (E:\Code\schedule\target\classes started by H-PC in E:\Code\schedule)
+2019-09-30 09:39:22.825  INFO 9284 --- [main] c.example.schedule.ScheduleApplication   : No active profile set, falling back to default profiles: default
+2019-09-30 09:39:23.387  WARN 9284 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sche': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.schedule.dao.stoStationViewDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-09-30 09:39:23.391  INFO 9284 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-30 09:39:23.445 ERROR 9284 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.example.schedule.dao.stoStationViewDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.schedule.dao.stoStationViewDao' in your configuration.
+
+2019-09-30 09:39:38.198  INFO 232 --- [main] c.example.schedule.ScheduleApplication   : Starting ScheduleApplication on DESKTOP-P41K0TR with PID 232 (E:\Code\schedule\target\classes started by H-PC in E:\Code\schedule)
+2019-09-30 09:39:38.200  INFO 232 --- [main] c.example.schedule.ScheduleApplication   : No active profile set, falling back to default profiles: default
+2019-09-30 09:39:38.830  INFO 232 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-30 09:39:38.855  INFO 232 --- [main] c.example.schedule.ScheduleApplication   : Started ScheduleApplication in 0.868 seconds (JVM running for 1.263)
+2019-09-30 09:40:03.023  INFO 10176 --- [main] c.example.schedule.ScheduleApplication   : Starting ScheduleApplication on DESKTOP-P41K0TR with PID 10176 (E:\Code\schedule\target\classes started by H-PC in E:\Code\schedule)
+2019-09-30 09:40:03.024  INFO 10176 --- [main] c.example.schedule.ScheduleApplication   : No active profile set, falling back to default profiles: default
+2019-09-30 09:40:03.627  INFO 10176 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-09-30 09:40:03.653  INFO 10176 --- [main] c.example.schedule.ScheduleApplication   : Started ScheduleApplication in 0.856 seconds (JVM running for 1.304)
+2019-09-30 10:01:00.095  INFO 10176 --- [scheduling-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-09-30 10:01:00.206  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 09:00:00
+2019-09-30 10:01:00.206  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 10:01:00.206  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 10:01:00.209  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 09:00:00
+2019-09-30 11:01:00.011  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 10:00:00
+2019-09-30 11:01:00.013  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 10:00:00
+2019-09-30 11:01:00.013  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 11:01:00.013  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 12:00:56.885  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 11:00:00
+2019-09-30 12:00:56.886  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 11:00:00
+2019-09-30 12:00:56.886  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 12:00:56.886  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 14:25:10.856  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 13:00:00
+2019-09-30 14:25:10.859  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 13:00:00
+2019-09-30 14:25:10.859  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 14:25:10.860  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 15:01:00.014  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 14:00:00
+2019-09-30 15:01:00.014  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 15:01:00.014  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 15:01:00.015  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 14:00:00
+2019-09-30 16:01:00.009  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 15:00:00
+2019-09-30 16:01:00.009  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 16:01:00.009  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
+2019-09-30 16:01:00.011  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 15:00:00
+2019-09-30 17:01:00.009  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stationView时间：2019-09-30 16:00:00
+2019-09-30 17:01:00.010  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay时间：2019-09-30 16:00:00
+2019-09-30 17:01:00.010  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : 添加：0条
+2019-09-30 17:01:00.010  INFO 10176 --- [scheduling-1] com.example.schedule.controller.Sche     : stpDay添加完毕
